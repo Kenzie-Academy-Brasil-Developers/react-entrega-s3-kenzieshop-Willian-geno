@@ -13,11 +13,19 @@ export const ProductsConteiner = styled.div`
     margin:10px;
     width: 250px;
     text-align: center;
+    background-color: white;
 
     img{
         width: 150px;
     }
+
+    button{
+        background-color: wheat;
+        border: solid 2px black;
+        border-radius: 10px;
+    }
 `
+
 
 export const DiscriptionConteiner = styled.div`
     display: flex;
@@ -30,7 +38,7 @@ export const DiscriptionConteiner = styled.div`
     }
 `
 export const Diplay = styled.div`
-
+    background-color: wheat;
     margin: 30px;
     .total{
         text-align: end;
